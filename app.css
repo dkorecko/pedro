@@ -14,12 +14,12 @@ body {
   width: 200px;
   aspect-ratio: 1;
   animation: rotate 6s linear infinite;
+}
 
-  img {
-    display: block;
-    width: 100%;
-    animation: bounce 0.2s linear infinite alternate;
-  }
+img {
+  display: block;
+  width: 100%;
+  animation: bounce 0.2s linear infinite alternate;
 }
 
 @keyframes rotate {
